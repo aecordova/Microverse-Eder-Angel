@@ -5,3 +5,18 @@
     top: 0;
     width: 100%;
 }
+
+.flex-container {
+    display: inline-flex;
+}
+
+
+    @media (max-width: 764px){
+        .background {background-color: #005500}
+        body {background-color: #005500}
+    }
+
+    @media (min-width: 765px){
+        .background {background-color: #550000}
+        body {background-color: #550000}
+    }
